@@ -4,7 +4,7 @@ public class frequency {
 
     public static HashMap<Integer, Integer> solution(int[] arr){
         int n = arr.length;
-        HashMap<Integer, Integer> map = new HashMap();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i < n; i++){
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
@@ -15,7 +15,7 @@ public class frequency {
 
     public static HashMap<Character, Integer> solution(char[] arr){
         int n = arr.length;
-        HashMap<Character, Integer> map = new HashMap();
+        HashMap<Character, Integer> map = new HashMap<>();
 
         for(int i = 0; i < n; i++){
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);

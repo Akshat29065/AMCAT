@@ -1,5 +1,4 @@
 public class BuyAndSell {
-
     public static int solution(int[] arr){
         int minprice = arr[0];
         int profit = 0;

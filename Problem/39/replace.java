@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class replace {
 
     public static String solution(String str, char what, char with){

@@ -3,7 +3,7 @@ import java.util.*;
 public class DecimalToBinary {
 
     public static int[] solution(int num){
-        List<Integer> binary = new ArrayList();
+        List<Integer> binary = new ArrayList<>();
         while(num > 0){
             int temp = num % 2;
             binary.add(temp);

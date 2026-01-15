@@ -5,7 +5,7 @@ import java.util.Map;
 public class MaxFrequency {
 
     public static int[] solution(int[] arr){
-        HashMap<Integer, Integer> map = new HashMap();
+        HashMap<Integer, Integer> map = new HashMap<>();
         int n = arr.length;
 
         for(int i = 0; i < n; i++){
